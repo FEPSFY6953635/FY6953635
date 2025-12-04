@@ -206,7 +206,35 @@
 <h3 id="PowerTransmission">Power Transmission: Superconducting Cables for Efficient Grids</h3>
 <p>
   <pre>Conventional electricity systems lose significant amounts of energy through the heating of copper and aluminium cables caused by resistance, losing around 7.2% of all electricity consumed, largely due to resistive heating in copper and aluminium conductors when current flows (UK Power Networks, 2023)Demand for energy continues to grow, so minimising any energy loss has become increasingly important for increasing the efficiency of power grids. Cables made of materials that exhibit superconductivity are known as high temperature superconducting cables, and offer a potential solution because they can carry electrical current with zero resistance when maintained below their critical temperature. This means that no electrical energy is lost as heat - even when transmitting large amounts of power over long distances. HTS cables can also carry far higher current densities than conventional conductors, allowing more power to be transmitted through a smaller physical footprint. This makes them particularly attractive for use in dense urban environments where space for new infrastructure is limited. Use of HTS cables in power systems have been demonstrated before, albeit on smaller scales, in the United States, Korea and Germany.
-     (reference) (stats reference) (table)
+    <h3>Table 1. Modeled power losses for selected transmission options (4 GW, 810 km)</h3>
+<p><em>Data from Thomas et al., 2016 — Electric Power Systems Research, Table 2.</em></p>
+
+<table style="border-collapse: collapse; width: 90%; margin: 20px auto; font-family: Calibri, sans-serif; font-size: 16px;">
+  <thead>
+    <tr style="background-color: #1976d2; color: white; text-align: center;">
+      <th style="padding: 8px; border: 1px solid #ccc;">Transmission system (4 GW / 810 km)</th>
+      <th style="padding: 8px; border: 1px solid #ccc;">Power loss (MW)</th>
+      <th style="padding: 8px; border: 1px solid #ccc;">Power loss (% of 4 GW)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">HTS cable (LN₂ cooled)</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">7.3</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">0.18%</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">±500 kV HVDC overhead line (OHL)</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">92.6</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">2.23%</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">±320 kV HVDC XLPE underground cable</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">223.4</td>
+      <td style="padding: 8px; border: 1px solid #ccc; text-align: center;">5.24%</td>
+    </tr>
+  </tbody>
+</table>
 Superconductive materials require cooling near absolute zero and there are expected difficulties at keeping low temperatures – necessitating the use of cryogenic cooling systems. Without cooling, the material reverts to being a normal conductor. Cryogenic systems must manage not just cooling, but thermal insulation, heating from the  environment, distribution of coolant, and stable temperature maintenance - especially important for large superconducting devices (generators, motors, transmission cables, or fusion magnets). Engineering difficulties arise mostly from the cryogenic system design, creating and insulating systems that can handle liquid helium or liquid nitrogen at extremely low temperatures like 4 Kelvin safely and efficiently. The design of these systems, including insulation, coolant circulation, and heat-load management, is complex and expensive (Radebaugh, 2004).
 
   </pre>
@@ -225,7 +253,7 @@ Superconductive materials require cooling near absolute zero and there are expec
 <h3 id="FusionEnergy">Fusion Energy: Superconductors Enabling Plasma Confinement</h3>
 <p>
   <pre> Fusion energy aims to replicate the processes that power the Sun by fusing light atomic nuclei to release large amounts of energy. To achieve this on Earth, extremely high temperatures—over 150 million degrees Celsius—are required, which means the fusion fuel must exist as plasma - which can be thought of as a super-heated mixture of electrons and ions. Confining this plasma safely requires extremely strong magnetic fields, which are traditionally produced by copper or low-temperature superconducting magnets.
-    However, these systems consume large amounts of power and place strict limits on the achievable magnetic field strength (International Atomic Energy Agency, 2001). As a result, they make it difficult for fusion reactors to reach the conditions needed for energy production. High-temperature superconductors (HTS) offer a significant breakthrough for fusion technology. They can generate magnetic fields far stronger than those produced by conventional magnets while operating more efficiently and at higher temperatures. Reactors have demonstrated that HTS magnets can create magnetic fields strong enough to confine plasma in a smaller reactor, potentially reducing both the cost and size of future fusion power plants (Sorbom et al., 2015). These advancements could speed-up progress towards achieving commercially viable fusion energy. Nevertheless, major challenges remain. HTS materials are still expensive to produce, and operating them in a high-radiation fusion environment requires further testing. The engineering complexity of confining plasma stabily also remains a significant obstacle. Even so, superconductors are regarded as one of the most important enabling technologies for the future of fusion energy,and there is no doubt they will play a central role in any successful fusion reactor design.
+However, these systems consume large amounts of power and place strict limits on the achievable magnetic field strength (International Atomic Energy Agency, 2001). As a result, they make it difficult for fusion reactors to reach the conditions needed for energy production. High-temperature superconductors (HTS) offer a significant breakthrough for fusion technology. They can generate magnetic fields far stronger than those produced by conventional magnets while operating more efficiently and at higher temperatures. Reactors have demonstrated that HTS magnets can create magnetic fields strong enough to confine plasma in a smaller reactor, potentially reducing both the cost and size of future fusion power plants (Sorbom et al., 2015). These advancements could speed-up progress towards achieving commercially viable fusion energy. Nevertheless, major challenges remain. HTS materials are still expensive to produce, and operating them in a high-radiation fusion environment requires further testing. The engineering complexity of confining plasma stabily also remains a significant obstacle. Even so, superconductors are regarded as one of the most important enabling technologies for the future of fusion energy,and there is no doubt they will play a central role in any successful fusion reactor design.
  </pre>
 </p>
 
@@ -234,9 +262,8 @@ Superconductive materials require cooling near absolute zero and there are expec
     <hr>
  <h3 id="Conclusion and discussion">Conclusion and discussion</h3>
     <p>
-     <pre>There do remain practical aspects surrounding the field which must be adressed, for example, infrastructure compatibility. Most existing power grids and energy systems were never designed to incorporate cryogenic lines, specialised cabling, or the insulation required for superconducting components, meaning large sections of infrastructure would need upgrading or complete replacement before superconductors could be deployed at scale. Another consideration involves practical implementation. Many superconducting materials depend on scarce or geopolitically concentrated resources, creating uncertainty in supply chains and making large-scale deployment vulnerable to fluctuations in cost and availability. In addition, superconductors introduce unique safety concerns—particularly the risk of quenches, where a sudden loss of superconductivity can produce rapid heating and mechanical stress—requiring new monitoring systems, operator training, and safety protocols.These factors make widespread adoption complex despite the benefits superconductors offer.
-  
-       In closing, superconductors offer significant potential to improve power transmission, generators, and fusion energy by eliminating resistive losses and enabling much higher magnetic field strengths. However, their widespread adoption is limited by the high cost of materials, the need for complex cryogenic systems, and broader economic and political barriers that influence investment and infrastructure development. If these challenges can be addressed through technological progress and policy support, superconductors could become a key component of future global energy systems.
+     <pre>There do remain practical aspects surrounding the field which must be adressed, for example, infrastructure compatibility. Most existing power grids and energy systems were never designed to incorporate cryogenic lines, specialised cabling, or the insulation required for superconducting components, meaning large sections of infrastructure would need upgrading or complete replacement before superconductors could be deployed at scale. Another consideration involves practical implementation. Many superconducting materials depend on scarce or geopolitically concentrated resources, creating uncertainty in supply chains and making large-scale deployment vulnerable to fluctuations in cost and availability. In addition, superconductors introduce unique safety concerns—particularly the risk of quenches, where a sudden loss of superconductivity can produce rapid heating and mechanical stress—requiring new monitoring systems, operator training, and safety protocols. These factors make widespread adoption complex despite the benefits superconductors offer.
+   In closing, superconductors offer significant potential to improve power transmission, generators, and fusion energy by eliminating resistive losses and enabling much higher magnetic field strengths. However, their widespread adoption is limited by the high cost of materials, the need for complex cryogenic systems, and broader economic and political barriers that influence investment and infrastructure development. If these challenges can be addressed through technological progress and policy support, superconductors could become a key component of future global energy systems.
       </pre>
   </p>
 <hr>
