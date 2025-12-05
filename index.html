@@ -8,6 +8,16 @@
     <h2>Student URN: 6953635</h2>
 <head>
  <style>
+  body {
+    margin: 0;
+    background: url('your-image.jpg') no-repeat center center fixed;
+    background-size: cover; /* scales image to fill the page */
+    font-family: Arial, sans-serif;
+    color: #222;
+  }
+</style
+  
+  <style>
 
   
   p, pre {
@@ -140,23 +150,31 @@
 </head>
 <head>
   <style>
-  /* Gradient divider */
-  hr {
-    border: none;
-    height: 4px;
-    width: 100%;
-    margin: 40px auto;
-    background: linear-gradient(to right, #1976d2, #42a5f5, #1976d2);
-    border-radius: 3px;
-  }
+    /* Gradient divider with animation */
+    hr {
+      border: none;
+      height: 4px;
+      width: 100%;
+      margin: 40px auto;
+      border-radius: 3px;
+      background: linear-gradient(to right, #1976d2, #42a5f5, #1976d2);
+      background-size: 200% 100%;
+      animation: gradientMove 6s ease infinite;
+    }
 
-  /* Optional hover effect for extra flair */
-  hr:hover {
-    background: linear-gradient(to right, #42a5f5, #1976d2, #42a5f5);
-    transition: background 0.5s ease;
-  }
-</style>
+    /* Hover effect for extra flair */
+    hr:hover {
+      background: linear-gradient(to right, #42a5f5, #1976d2, #42a5f5);
+      transition: background 0.5s ease;
+    }
 
+    /* Keyframes for gradient animation */
+    @keyframes gradientMove {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
 </head>
 
     
