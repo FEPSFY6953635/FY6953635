@@ -363,14 +363,18 @@ International Atomic Energy Agency (2001) ‘Fusion Reactors and Technology for 
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("Analysis_InText");
+    const PowerTransmissionCount = displayWordCount("PowerTransmission_InText");
+    const MotorsGeneratorsCount = displayWordCount("MotorsGenerators_InText");
+    const FusionEnergyCount = displayWordCount("FusionEnergy_InText");
+    const ConclusionanddiscussionCount = displayWordCount("Conclusion and discussion_InText");
+  
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + AnalysisCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
   // Run the function for specific sections and display total count when the page loads
-  window.onload = displayTotalWordCount;
+window.addEventListener("load", displayTotalWordCount);
 
 
 </script>   
